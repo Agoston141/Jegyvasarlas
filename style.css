@@ -1,0 +1,33 @@
+:root{
+    --left:rgb(233, 16, 16);
+    --right:rgb(202, 100, 100);
+}
+*{box-sizing: border-box;margin: 0;padding: 0;}
+header{
+    height: 600px;
+    background-image: linear-gradient(var(--left),var(--right));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mycontainer{
+    background-color: rgb(0, 110, 255);
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    gap:1rem
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+video{
+    width:50vw ;
+    border-radius: 30px;
+}
