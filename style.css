@@ -27,7 +27,8 @@ header{
     flex-direction: column;
     row-gap: 1rem;
 }
-video{
-    width:50vw ;
+iframe{
+    width:60vw ;
     border-radius: 30px;
+    height: 100%;
 }
