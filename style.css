@@ -9,6 +9,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 2rem;
 }
 .mycontainer{
     background-color: rgb(0, 110, 255);
@@ -31,4 +33,12 @@ iframe{
     width:60vw ;
     border-radius: 30px;
     height: 100%;
+    box-shadow: 0 0 10px 3px black;
+}
+header h1{
+    color: white;
+    text-shadow: 8px 8px 8px black;
+}
+@media (max-width:900px){
+    iframe{display: none;}
 }
